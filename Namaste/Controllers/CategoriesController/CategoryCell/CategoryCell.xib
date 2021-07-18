@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryCell" id="gTV-IL-0wX" customClass="CategoryCell" customModule="Namaste" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="234" height="142"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="234" height="142"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJv-Z3-TZO">
+                        <rect key="frame" x="17" y="61" width="200" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="3oF-wB-j1p"/>
+                            <constraint firstAttribute="height" constant="20" id="KzC-K6-mIj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                    </label>
+                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BEu-q9-lKj">
+                        <rect key="frame" x="196" y="8" width="30" height="30"/>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.96078431372549022" alpha="0.49844067301971234" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="RUd-u1-ELQ"/>
+                            <constraint firstAttribute="width" constant="30" id="opK-fD-6hg"/>
+                        </constraints>
+                        <color key="tintColor" systemColor="systemRedColor"/>
+                        <state key="normal" image="trash" catalog="system"/>
+                        <state key="selected" image="trash.fill" catalog="system"/>
+                        <state key="highlighted" image="trash.fill" catalog="system"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="7"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2uv-dL-gNh">
+                        <rect key="frame" x="8" y="8" width="30" height="30"/>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.96078431372549022" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="eek-P4-v0d"/>
+                            <constraint firstAttribute="width" constant="30" id="xOP-aT-XYp"/>
+                        </constraints>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" image="pencil" catalog="system"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="7"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="2uv-dL-gNh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="NIc-1Y-ekV"/>
+                <constraint firstAttribute="trailing" secondItem="BEu-q9-lKj" secondAttribute="trailing" constant="8" id="QSf-0y-c35"/>
+                <constraint firstItem="BEu-q9-lKj" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="T9o-Ng-YWs"/>
+                <constraint firstItem="eJv-Z3-TZO" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="Vkl-h1-Kuj"/>
+                <constraint firstItem="2uv-dL-gNh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="hOB-Gw-q4e"/>
+                <constraint firstItem="eJv-Z3-TZO" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="jyr-Ng-CMY"/>
+            </constraints>
+            <size key="customSize" width="234" height="142"/>
+            <connections>
+                <outlet property="delBtn" destination="BEu-q9-lKj" id="M65-j4-g7A"/>
+                <outlet property="editBtn" destination="2uv-dL-gNh" id="Imb-ox-ShC"/>
+                <outlet property="lNameOfCategory" destination="eJv-Z3-TZO" id="bZw-8K-Qaw"/>
+            </connections>
+            <point key="canvasLocation" x="71.014492753623188" y="96.428571428571431"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="pencil" catalog="system" width="128" height="113"/>
+        <image name="trash" catalog="system" width="121" height="128"/>
+        <image name="trash.fill" catalog="system" width="121" height="128"/>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

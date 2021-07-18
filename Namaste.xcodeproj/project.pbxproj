@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30020A41265CF33F00EC24CB /* YogaAssana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30020A40265CF33F00EC24CB /* YogaAssana.swift */; };
+		30020A44265CF3CC00EC24CB /* YouTubeVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30020A43265CF3CC00EC24CB /* YouTubeVideoViewController.swift */; };
+		30020A49265CF56D00EC24CB /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30020A48265CF56D00EC24CB /* JsonData.swift */; };
+		30020A4D265D004900EC24CB /* YouTubeVideoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30020A4C265D004900EC24CB /* YouTubeVideoAPI.swift */; };
+		30020A52265D160300EC24CB /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30020A51265D160300EC24CB /* NetworkLayer.swift */; };
+		3089C5E4264C2050006760D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089C5E3264C2050006760D5 /* AppDelegate.swift */; };
+		3089C5E6264C2050006760D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089C5E5264C2050006760D5 /* SceneDelegate.swift */; };
+		3089C5E8264C2050006760D5 /* RandomYogaAssanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089C5E7264C2050006760D5 /* RandomYogaAssanaViewController.swift */; };
+		3089C5EB264C2050006760D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3089C5E9264C2050006760D5 /* Main.storyboard */; };
+		3089C5EE264C2050006760D5 /* Namaste.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3089C5EC264C2050006760D5 /* Namaste.xcdatamodeld */; };
+		3089C5F0264C2053006760D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3089C5EF264C2053006760D5 /* Assets.xcassets */; };
+		3089C5F3264C2053006760D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3089C5F1264C2053006760D5 /* LaunchScreen.storyboard */; };
+		3089C600264C2154006760D5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3089C5FF264C2154006760D5 /* .gitignore */; };
+		309776E826848A0C00C9C9E5 /* PopUpVideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309776E726848A0C00C9C9E5 /* PopUpVideController.swift */; };
+		30B7ED9A26691D5C0038591F /* CategoriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7ED9926691D5C0038591F /* CategoriesController.swift */; };
+		30B7ED9F26691FA00038591F /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7ED9D26691FA00038591F /* CategoryCell.swift */; };
+		30B7EDA026691FA00038591F /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30B7ED9E26691FA00038591F /* CategoryCell.xib */; };
+		30B7EDA3266920890038591F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7EDA2266920890038591F /* Category.swift */; };
+		30B90F4126824A8F00428890 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B90F4026824A8F00428890 /* Defaults.swift */; };
+		30B90F44268364A700428890 /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B90F43268364A700428890 /* ResultController.swift */; };
+		30B90F4826836C2000428890 /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B90F4626836C2000428890 /* ResultCell.swift */; };
+		30B90F4926836C2000428890 /* ResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30B90F4726836C2000428890 /* ResultCell.xib */; };
+		9F22330166E8BEF5E850C1DB /* Pods_Namaste.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356C4804468629CD4CF4D163 /* Pods_Namaste.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30020A40265CF33F00EC24CB /* YogaAssana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaAssana.swift; sourceTree = "<group>"; };
+		30020A43265CF3CC00EC24CB /* YouTubeVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeVideoViewController.swift; sourceTree = "<group>"; };
+		30020A48265CF56D00EC24CB /* JsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonData.swift; sourceTree = "<group>"; };
+		30020A4C265D004900EC24CB /* YouTubeVideoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeVideoAPI.swift; sourceTree = "<group>"; };
+		30020A51265D160300EC24CB /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		3089C5E0264C2050006760D5 /* Namaste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Namaste.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3089C5E3264C2050006760D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3089C5E5264C2050006760D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3089C5E7264C2050006760D5 /* RandomYogaAssanaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomYogaAssanaViewController.swift; sourceTree = "<group>"; };
+		3089C5EA264C2050006760D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3089C5ED264C2050006760D5 /* Namaste.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Namaste.xcdatamodel; sourceTree = "<group>"; };
+		3089C5EF264C2053006760D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3089C5F2264C2053006760D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3089C5F4264C2053006760D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3089C5FF264C2154006760D5 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		309776E726848A0C00C9C9E5 /* PopUpVideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpVideController.swift; sourceTree = "<group>"; };
+		30B7ED9926691D5C0038591F /* CategoriesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesController.swift; sourceTree = "<group>"; };
+		30B7ED9D26691FA00038591F /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		30B7ED9E26691FA00038591F /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		30B7EDA2266920890038591F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		30B90F4026824A8F00428890 /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		30B90F43268364A700428890 /* ResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
+		30B90F4626836C2000428890 /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
+		30B90F4726836C2000428890 /* ResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultCell.xib; sourceTree = "<group>"; };
+		356C4804468629CD4CF4D163 /* Pods_Namaste.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Namaste.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35751C21F44D790F04A8C327 /* Pods-Namaste.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Namaste.release.xcconfig"; path = "Target Support Files/Pods-Namaste/Pods-Namaste.release.xcconfig"; sourceTree = "<group>"; };
+		4ACB87EC22C5C3ABF58D43A8 /* Pods-Namaste.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Namaste.debug.xcconfig"; path = "Target Support Files/Pods-Namaste/Pods-Namaste.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3089C5DD264C2050006760D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F22330166E8BEF5E850C1DB /* Pods_Namaste.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		293760335D2BF4A522E98EE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				356C4804468629CD4CF4D163 /* Pods_Namaste.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		305277AA2680B17A00B37592 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				305277AF2680B22F00B37592 /* AsanasClass */,
+				305277AE2680B21000B37592 /* YouTubeClass */,
+				30020A51265D160300EC24CB /* NetworkLayer.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		305277AB2680B19800B37592 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				30020A48265CF56D00EC24CB /* JsonData.swift */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		305277AC2680B1AD00B37592 /* CategoriesController */ = {
+			isa = PBXGroup;
+			children = (
+				305277AD2680B1D500B37592 /* CategoryCell */,
+				30B7ED9926691D5C0038591F /* CategoriesController.swift */,
+				30B7EDA2266920890038591F /* Category.swift */,
+			);
+			path = CategoriesController;
+			sourceTree = "<group>";
+		};
+		305277AD2680B1D500B37592 /* CategoryCell */ = {
+			isa = PBXGroup;
+			children = (
+				30B7ED9D26691FA00038591F /* CategoryCell.swift */,
+				30B7ED9E26691FA00038591F /* CategoryCell.xib */,
+			);
+			path = CategoryCell;
+			sourceTree = "<group>";
+		};
+		305277AE2680B21000B37592 /* YouTubeClass */ = {
+			isa = PBXGroup;
+			children = (
+				30020A4C265D004900EC24CB /* YouTubeVideoAPI.swift */,
+			);
+			path = YouTubeClass;
+			sourceTree = "<group>";
+		};
+		305277AF2680B22F00B37592 /* AsanasClass */ = {
+			isa = PBXGroup;
+			children = (
+				30020A40265CF33F00EC24CB /* YogaAssana.swift */,
+			);
+			path = AsanasClass;
+			sourceTree = "<group>";
+		};
+		305277B02680B25E00B37592 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				30B90F422683646200428890 /* ResultController */,
+				305277B22680B27F00B37592 /* RandomAsanaController */,
+				305277B12680B26C00B37592 /* YouTubeController */,
+				305277AC2680B1AD00B37592 /* CategoriesController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		305277B12680B26C00B37592 /* YouTubeController */ = {
+			isa = PBXGroup;
+			children = (
+				30020A43265CF3CC00EC24CB /* YouTubeVideoViewController.swift */,
+			);
+			path = YouTubeController;
+			sourceTree = "<group>";
+		};
+		305277B22680B27F00B37592 /* RandomAsanaController */ = {
+			isa = PBXGroup;
+			children = (
+				3089C5E7264C2050006760D5 /* RandomYogaAssanaViewController.swift */,
+			);
+			path = RandomAsanaController;
+			sourceTree = "<group>";
+		};
+		305277B32680B29E00B37592 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				3089C5E3264C2050006760D5 /* AppDelegate.swift */,
+				3089C5E5264C2050006760D5 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		305277B42680B2B800B37592 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3089C5E9264C2050006760D5 /* Main.storyboard */,
+				3089C5F1264C2053006760D5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3089C5D7264C2050006760D5 = {
+			isa = PBXGroup;
+			children = (
+				3089C5FF264C2154006760D5 /* .gitignore */,
+				3089C5E2264C2050006760D5 /* Namaste */,
+				3089C5E1264C2050006760D5 /* Products */,
+				8B1E24E600C279500F88FC3A /* Pods */,
+				293760335D2BF4A522E98EE5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3089C5E1264C2050006760D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3089C5E0264C2050006760D5 /* Namaste.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3089C5E2264C2050006760D5 /* Namaste */ = {
+			isa = PBXGroup;
+			children = (
+				30B90F3F26824A7A00428890 /* Defaults */,
+				305277B42680B2B800B37592 /* Storyboards */,
+				305277B32680B29E00B37592 /* Delegate */,
+				305277B02680B25E00B37592 /* Controllers */,
+				305277AB2680B19800B37592 /* Json */,
+				305277AA2680B17A00B37592 /* Network */,
+				3089C5EF264C2053006760D5 /* Assets.xcassets */,
+				3089C5F4264C2053006760D5 /* Info.plist */,
+				3089C5EC264C2050006760D5 /* Namaste.xcdatamodeld */,
+			);
+			path = Namaste;
+			sourceTree = "<group>";
+		};
+		30B90F3F26824A7A00428890 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				30B90F4026824A8F00428890 /* Defaults.swift */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		30B90F422683646200428890 /* ResultController */ = {
+			isa = PBXGroup;
+			children = (
+				30B90F4526836BF700428890 /* ResultCell */,
+				30B90F43268364A700428890 /* ResultController.swift */,
+				309776E726848A0C00C9C9E5 /* PopUpVideController.swift */,
+			);
+			path = ResultController;
+			sourceTree = "<group>";
+		};
+		30B90F4526836BF700428890 /* ResultCell */ = {
+			isa = PBXGroup;
+			children = (
+				30B90F4626836C2000428890 /* ResultCell.swift */,
+				30B90F4726836C2000428890 /* ResultCell.xib */,
+			);
+			path = ResultCell;
+			sourceTree = "<group>";
+		};
+		8B1E24E600C279500F88FC3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4ACB87EC22C5C3ABF58D43A8 /* Pods-Namaste.debug.xcconfig */,
+				35751C21F44D790F04A8C327 /* Pods-Namaste.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3089C5DF264C2050006760D5 /* Namaste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3089C5F7264C2053006760D5 /* Build configuration list for PBXNativeTarget "Namaste" */;
+			buildPhases = (
+				61DBE98F28EF506EC1642BA7 /* [CP] Check Pods Manifest.lock */,
+				3089C5DC264C2050006760D5 /* Sources */,
+				3089C5DD264C2050006760D5 /* Frameworks */,
+				3089C5DE264C2050006760D5 /* Resources */,
+				97BCF10CD477A808C4FD8B51 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Namaste;
+			productName = Namaste;
+			productReference = 3089C5E0264C2050006760D5 /* Namaste.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3089C5D8264C2050006760D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3089C5DF264C2050006760D5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 3089C5DB264C2050006760D5 /* Build configuration list for PBXProject "Namaste" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3089C5D7264C2050006760D5;
+			productRefGroup = 3089C5E1264C2050006760D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3089C5DF264C2050006760D5 /* Namaste */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3089C5DE264C2050006760D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B7EDA026691FA00038591F /* CategoryCell.xib in Resources */,
+				3089C600264C2154006760D5 /* .gitignore in Resources */,
+				3089C5F3264C2053006760D5 /* LaunchScreen.storyboard in Resources */,
+				3089C5F0264C2053006760D5 /* Assets.xcassets in Resources */,
+				30B90F4926836C2000428890 /* ResultCell.xib in Resources */,
+				3089C5EB264C2050006760D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61DBE98F28EF506EC1642BA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Namaste-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97BCF10CD477A808C4FD8B51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Namaste/Pods-Namaste-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Namaste/Pods-Namaste-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Namaste/Pods-Namaste-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3089C5DC264C2050006760D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B7ED9A26691D5C0038591F /* CategoriesController.swift in Sources */,
+				30B90F4126824A8F00428890 /* Defaults.swift in Sources */,
+				30020A52265D160300EC24CB /* NetworkLayer.swift in Sources */,
+				3089C5E8264C2050006760D5 /* RandomYogaAssanaViewController.swift in Sources */,
+				309776E826848A0C00C9C9E5 /* PopUpVideController.swift in Sources */,
+				30020A4D265D004900EC24CB /* YouTubeVideoAPI.swift in Sources */,
+				30020A41265CF33F00EC24CB /* YogaAssana.swift in Sources */,
+				3089C5EE264C2050006760D5 /* Namaste.xcdatamodeld in Sources */,
+				3089C5E4264C2050006760D5 /* AppDelegate.swift in Sources */,
+				30B90F4826836C2000428890 /* ResultCell.swift in Sources */,
+				30020A44265CF3CC00EC24CB /* YouTubeVideoViewController.swift in Sources */,
+				30020A49265CF56D00EC24CB /* JsonData.swift in Sources */,
+				3089C5E6264C2050006760D5 /* SceneDelegate.swift in Sources */,
+				30B7ED9F26691FA00038591F /* CategoryCell.swift in Sources */,
+				30B90F44268364A700428890 /* ResultController.swift in Sources */,
+				30B7EDA3266920890038591F /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3089C5E9264C2050006760D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3089C5EA264C2050006760D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3089C5F1264C2053006760D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3089C5F2264C2053006760D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3089C5F5264C2053006760D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3089C5F6264C2053006760D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3089C5F8264C2053006760D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ACB87EC22C5C3ABF58D43A8 /* Pods-Namaste.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UTH3CG74D;
+				INFOPLIST_FILE = Namaste/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myExamApp.Namaste;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3089C5F9264C2053006760D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35751C21F44D790F04A8C327 /* Pods-Namaste.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UTH3CG74D;
+				INFOPLIST_FILE = Namaste/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myExamApp.Namaste;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3089C5DB264C2050006760D5 /* Build configuration list for PBXProject "Namaste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3089C5F5264C2053006760D5 /* Debug */,
+				3089C5F6264C2053006760D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3089C5F7264C2053006760D5 /* Build configuration list for PBXNativeTarget "Namaste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3089C5F8264C2053006760D5 /* Debug */,
+				3089C5F9264C2053006760D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3089C5EC264C2050006760D5 /* Namaste.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3089C5ED264C2050006760D5 /* Namaste.xcdatamodel */,
+			);
+			currentVersion = 3089C5ED264C2050006760D5 /* Namaste.xcdatamodel */;
+			path = Namaste.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3089C5D8264C2050006760D5 /* Project object */;
+}

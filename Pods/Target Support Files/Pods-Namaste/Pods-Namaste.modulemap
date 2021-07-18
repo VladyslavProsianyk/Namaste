@@ -1,0 +1,6 @@
+framework module Pods_Namaste {
+  umbrella header "Pods-Namaste-umbrella.h"
+
+  export *
+  module * { export * }
+}
